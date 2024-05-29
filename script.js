@@ -5,7 +5,8 @@ const listcontainer = document.getElementById("list-container");
 function addTask() {
     if (inputbox.value === '') {
         alert("You must write something!");
-    } else if (duedate.value === '') {
+    }
+     else if (duedate.value === '') {
         alert("You must set a due date!");
     } else {
         let li = document.createElement("li");
